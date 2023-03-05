@@ -11,8 +11,8 @@ class Grupo:
         if asignaturas==None:
             self._asignaturas=[]
         else:
-            self.asignaturas=asignaturas 
-            
+            self._asignaturas=asignaturas 
+
         self.listadoAlumnos = estudiantes
 
     def listadoAsignaturas(self, **kwargs):
