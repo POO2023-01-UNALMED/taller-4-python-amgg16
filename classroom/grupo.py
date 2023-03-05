@@ -10,6 +10,9 @@ class Grupo:
         self._grupo = grupo
         if asignaturas==None:
             self._asignaturas=[]
+        else:
+            self.asignaturas=asignaturas 
+            
         self.listadoAlumnos = estudiantes
 
     def listadoAsignaturas(self, **kwargs):
